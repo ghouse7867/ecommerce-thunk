@@ -1,0 +1,266 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.ui.grid.container {
+  margin-top: 45px;
+}
+
+.ui.grid > .row {
+  background: #fff;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+
+/* ==================== */
+.header-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px; /* Adjust the spacing as needed */
+    font-size: 28px;
+}
+
+.image-cart {
+  height: 250px;
+  width: 300px;
+}
+
+/* CSS for Cart Summary */
+.ui.segment.cart {
+  position: relative; /* Fixed position */
+  top: 20px; /* Adjust top position as needed */
+  right: 10px; /* Adjust right position as needed */
+  background-color: #fff; /* Background color */
+  padding: 10px; /* Padding */
+  border: 1px solid #ddd; /* Border */
+  border-radius: 5px; /* Border radius */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  text-align: left; /* Text alignment to the right */
+  left: 20%; /* Ensure it's on top of other elements */
+}
+
+/* Style for Total Price */
+.ui.segment.cart p:first-child {
+  font-weight: bold; /* Bold text for total price */
+  font-size: 18px; /* Font size for total price */
+  margin-bottom: 5px; /* Margin below total price */
+}
+
+/* Style for Total Quantity */
+.ui.segment.cart p:last-child {
+  font-size: 16px; /* Font size for total quantity */
+  color: #885858; /* Gray color for total quantity */
+}
+
+.qty {
+  font-size: 16px; /* Font size for total quantity */
+  color: #885858; 
+  font-weight: bold;
+  height: 30px;
+  width: 50px;
+  justify-content: center;
+}
+
+.img-cart {
+  height: 50px;
+  width: 100px;
+}
+
+/* ================================== */
+/* Style the container for the cart icon and count badge */
+.cart-icon-container {
+  position: relative; /* Enable relative positioning */
+  display: inline-block; /* Ensure that it only takes the required space */
+}
+
+/* Style the count badge */
+.cart-item-count {
+  position: absolute;
+  top: -15px; /* Adjust the top position as needed */
+  right: -10px; /* Adjust the right position as needed */
+  background-color: rgb(48, 183, 224); /* Background color of the badge */
+  color: black; /* Text color of the badge */
+  border-radius: 50%; /* Make it a circle */
+  padding: 3px 6px; /* Adjust padding to fit the content */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.total {
+  font-weight: bold;
+  font-size: 25px;
+  color: #df7474;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* You can also use 'contain' or other values */
+}
+/* ==================================================== */
+
+.horizontal-pagination {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-pagination .page-item {
+  display: flex !important;
+  margin: 0 4px; /* Adjust the margin as needed for spacing between buttons */
+}
+/* Pagination container */
+.pagination-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Individual page item */
+.page-item {
+  float : left;
+  display: flex !important;
+  margin: 0 5px;
+  padding: 8px 16px;
+  background-color: #cdd7e0;
+  color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Current active page item */
+.page-item.active {
+  background-color: #da8484;
+  color: #007bff;
+}
+
+/* Previous and Next buttons */
+.page-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* First and Last buttons */
+.first-page,
+.last-page {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for page items, First, and Last buttons */
+.page-item:hover,
+.first-page:hover,
+.last-page:hover {
+  background-color: #86aace;
+  border-color: #86aace;
+}
+
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap; /* This allows products to wrap to the next line if there's not enough horizontal space */
+  justify-content: flex-start; /* Adjust to your preferred alignment (e.g., flex-start, space-between, etc.) */
+  gap: 10px; 
+  margin-left: 50px;
+}
+

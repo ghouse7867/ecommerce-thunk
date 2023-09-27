@@ -1,0 +1,53 @@
+[
+    {
+        "name" : "sandisk cruzer blade",
+        "price" : 45.5,
+        "description" : "ultrafast",
+        "ratings" : 4.5,
+        "images": [
+            {
+                "public_id":"google.com/search?sca_esv=563382129",
+                "url":"google.com/search?sca_esv=563382129"
+            }
+        ],
+        "category" : "Electronics",
+        "seller" : "Ebay",
+        "stock" : 50,
+        "numOfReviews" : 35,
+        "reviews" : []
+    },
+    {
+        "name" : "All In Book",
+        "price" : 35.5,
+        "description" : "Book",
+        "ratings" : 3.5,
+        "images": [
+            {
+                "public_id":"google.com/search?sca_esv=563382129",
+                "url":"google.com/search?sca_esv=563382129"
+            }
+        ],
+        "category" : "Books",
+        "seller" : "Ebay",
+        "stock" : 60,
+        "numOfReviews" : 40,
+        "reviews" : []
+    },
+    {
+        "name" : "i5 Laptop",
+        "price" : 450.5,
+        "description" : "Laptop for office use",
+        "ratings" : 4.9,
+        "images": [
+            {
+                "public_id":"google.com/search?sca_esv=563382129",
+                "url":"google.com/search?sca_esv=563382129"
+            }
+        ],
+        "category" : "Laptop",
+        "seller" : "Ebay",
+        "stock" : 10,
+        "numOfReviews" : 25,
+        "reviews" : []
+    }
+]
